@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pong</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" href="css/atari-classic-int/style.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="divGame">
+        <div id="board">
+            <table class="center">
+                <thead>
+                    <tr>
+                        <th>PLAYER</th>
+                        <th class="thBetween">vs</th>
+                        <th>CPU</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td id="pointsPlayerBoard">0</td>
+                        <td></td>
+                        <td id="pointsCpuBoard">0</td>
+                    </tr>
+                </tbody>
+                <div id="divBall"></div>
+                <div id="divPlayer" class="bar left"></div>
+                <div id="divCpu" class="bar right"></div>
+            </table>
+        </div>
+    </div>
+    <div id="divPanel">
+        <div class="itemPanel divAlert">
+            <span class="alert"></span>
+        </div>
+        <br>
+        <div class="itemPanel divBtnStart">
+            <button type="button" id="btnInitGame" class="btn">Iniciar</button>
+        </div>
+        <div class="itemPanel divBtnReload">
+            <button type="button" id="btnRestartGame" class="btn">Jogar Novamente</button>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jsGame.js"></script>
+</body>
+
+</html>

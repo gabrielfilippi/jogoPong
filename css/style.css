@@ -1,0 +1,99 @@
+body{
+    margin: 0px;
+    background-color: #aaa;
+    font-family: 'Atari Classic Int Chunky';
+}
+
+#divPanel{
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+
+.itemPanel{
+    width: 100%;
+    margin: 5px;
+}
+
+#divGame{
+    width: 960px;
+    height: 500px;
+    border: 1px solid #000;
+    background-color: #000;
+}
+
+#divBall{
+    position: absolute;
+    top: 240px;
+    left: 475px;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.bar{
+    position: absolute;
+    width: 20px;
+    height: 140px;
+    background-color: #888;
+    top:180px;
+}
+
+.left{
+    left:10px;
+}
+
+.right{
+    left: 930px;
+}
+
+#board{
+    text-align: center;
+    color: rgb(222 221 221 / 25%)
+}
+ 
+#board > span{
+    margin-left: 15px;
+}
+
+table{
+    font-size: 30px;
+}
+
+.thBetween{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.divAlert{
+    min-width: 757px;
+    height: 15px;
+}
+
+.alert{
+    font-size: 12px;
+    color: #1320b9;
+}
+
+.btn{
+    width: 190px;
+    height: 42px;
+    font-family: 'Atari Classic Int Chunky';
+    background: #303030;
+    color: #fff;
+}
+
+.divBtnStart{
+    display: block;
+}
+
+.divBtnReload{
+    display: none;
+}
